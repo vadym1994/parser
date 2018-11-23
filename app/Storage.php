@@ -9,6 +9,10 @@ class Storage
     public function __construct($filename = NULL)
     {
         $this->file_name = $filename;
+
+        if (!file_exists($this->storage_path)) {
+            mkdir($this->storage_path, 0777, true);
+        }
     }
 
     /**
