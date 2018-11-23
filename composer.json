@@ -1,0 +1,19 @@
+{
+    "name": "sharafin/parser",
+    "description": "CLI app for parsing images from web-pages",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sharafin Vadim",
+            "email": "vadim.sharafin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
